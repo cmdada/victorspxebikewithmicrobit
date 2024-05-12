@@ -12,7 +12,7 @@ input.on_button_pressed(Button.B, on_button_pressed_b)
 
 def on_forever():
     basic.clear_screen()
-    pins.servo_write_pin(AnalogPin.P0, 9+(7 * speed))
+    pins.servo_write_pin(AnalogPin.P0, 6+(7 * speed))
     y = speed // 5
     x = speed % 5
     led.plot(x, y)
